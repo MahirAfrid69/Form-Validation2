@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1 style="font-size: 50px;"><span style="color: red;">Sign</span>Up</h1>
+	<form onsubmit="return Validate()" action="#">
+			<input type="text" placeholder="Username" id="uname" class="box1"><br><br>
+			<input type="text" placeholder="Email" id="email" class=" box1"><br><br>
+		    <input type="Email" placeholder="Password" id="pass1" class="box1"><br><br>
+			<input type="password" placeholder="Confirm Password " id="pass2" class="box1"><br><br>
+			<input type="number" placeholder="Contact number" id="phone" class="box1"><br><br>
+			<button onclick="Validate()">Register</button>
+	</form>
+
+	<h2 id="Error"></h2>
+	
+<script type="text/javascript" src="Valide.js"></script>
+
+</body>
+</html>
